@@ -9,7 +9,8 @@
 # solution with .collect 
 
 def square_array(array)
-  array.collect {|number|number*number }
+  array.each {|number|
+  number.collect number*number }
   
   
 end 
